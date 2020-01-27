@@ -7,7 +7,7 @@ export default function CounterHookLifecycle() {
     
 
     useEffect(() => {
-        document.title = `you clicked {counter} times`
+        document.title = `you clicked ${counter} times`
 
     }, [counter])
 
